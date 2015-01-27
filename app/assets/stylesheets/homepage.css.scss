@@ -16,15 +16,20 @@
   font-size: 25px;
 }
 #nav  a:link {
-  font-size: 16px;
+  font-size: 25px;
   text-decoration: none;
-  font-family: georgia;
+  font-family: Palatino;
+  color: #fff;
 }
 #nav  a:hover {
-  font-size: 16px;
-  text-decoration: none;
-  font-family: georgia;
-  color: red;
+  font-size: 25px;
+  text-decoration: underline;
+  font-family: Palatino;
+  color: #fff;
+}
+#menu-pic {
+  width: 25px;
+  height: 25px;
 }
 h1 {
   font-family: Palatino;
