@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>D3: Our first bar chart with data</title>
+</head>
+<body>
+  <script type="text/javascript">
+  var w = 500;
+  var h = 300;
+  var barPadding = 2;
+
+  var dataset = [
+      {"country":"Hong Kong","score":8.98},
+      {"country":"Singapore","score":8.54},
+      {"country":"New Zealand","score":8.25},
+      {"country":"Switzerland","score":8.19},
+      {"country":"Mauritius","score":8.09},
+      {"country":"United Arab Emirates","score":8.05},
+      {"country":"Canada","score":8.00},
+      {"country":"Australia","score":7.87},
+      {"country":"Jordan","score":7.86},
+      {"country":"Chile","score":7.84},
+      ];
+
+      //Create SVG element
+      var svg = d3.select("body")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
+
+      svg.selectAll("rect")
+        .data(dataset)
+        .enter()
+        .append("rect")
+          .attr("x", function(d, i) {
+            return i * (w / dataset.length);
+          })
+          .attr("y", function(d) {
+            return h - (d.score * 20);
+          })
+          .attr("width", w / dataset.length - barPadding)
+          .attr("height", function(d) {
+            return d.score * 20;
+          })
+          .attr("fill", "teal");
+
+      svg.selectAll("text")
+        .data(dataset)
+        .enter()
+        .append("text")
+        .text(function(d) {
+          return d.country;
+        })
+          .attr("transform", function(d, i) {
+            var barW = w / dataset.length;
+            return "translate(" +
+            ( barW * i + barW / 2 + barPadding ) + "," +
+            ( h - 5 ) +
+            ")rotate(-90)";
+          })
+          .attr("font-size", "10pt")
+          .attr("fill", "white");
+
+
+      svg.selectAll("text")
+        .data(dataset)
+        .enter()
+        .append("text")
+        .text(function(d) {
+          return d.country;
+        })
+          .attr("transform", function(d, i) {
+            var barW = w / dataset.length;
+            return "translate(" +
+            ( barW * i + barW / 2 + barPadding ) + "," +
+            ( h - 5 ) +
+            ")rotate(-90)";
+          })
+          .attr("font-size", 10)
+          .attr("fill", "white")
+          .attr("font-family", "Arial")
+          .attr("text-anchor", "right");
+
+</script>
+</body>
+</html>
