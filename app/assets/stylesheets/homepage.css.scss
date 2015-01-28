@@ -14,6 +14,7 @@
   padding: 60px;
   font-family: Palatino;
   font-size: 25px;
+  position: relative;
 }
 #nav  a:link {
   font-size: 25px;
@@ -26,6 +27,8 @@
   text-decoration: underline;
   font-family: Palatino;
   color: #fff;
+  background-color: #60728a;
+  padding: 5px;
 }
 #menu-pic {
   width: 25px;
