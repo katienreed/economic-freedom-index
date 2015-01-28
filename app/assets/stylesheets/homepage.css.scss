@@ -30,9 +30,36 @@
   background-color: #60728a;
   padding: 5px;
 }
-#menu-pic {
-  width: 25px;
-  height: 25px;
+#social {
+  position: fixed;
+  right: 8px;
+  top: -50px;
+  z-index: 9999;
+  display: none;
+  width: 150px;
+  height: 150px;
+}
+#social2 {
+  position: fixed;
+  top: -50px;
+  right: 158px;
+  z-index: 9999;
+  display: none;
+  width: 150px;
+  height: 150px;
+}
+#social3 {
+  position: fixed;
+  right: 8px;
+  top: 50px;
+  z-index: 9999;
+  display: none;
+  font-color: #000;
+  font-size: 20px;
+}
+#social4 {
+  height: 30px;
+  width: 30px;
 }
 h1 {
   font-family: Palatino;

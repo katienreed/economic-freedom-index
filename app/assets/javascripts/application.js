@@ -16,3 +16,37 @@
 //= require_tree .
 //= require d3
 //= require topojson
+
+(function($) {
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      if ($(this).scrollTop() > 400) {
+        $('#social').fadeIn(1000);
+      } else {
+        $('#social').fadeOut(1000);
+      }
+    });
+  });
+})(jQuery);
+(function($) {
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      if ($(this).scrollTop() > 400) {
+        $('#social2').fadeIn(1000);
+      } else {
+        $('#social2').fadeOut(1000);
+      }
+    });
+  });
+})(jQuery);
+(function($) {
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      if ($(this).scrollTop() > 400) {
+        $('#social3').fadeIn(1000);
+      } else {
+        $('#social3').fadeOut(1000);
+      }
+    });
+  });
+})(jQuery);
