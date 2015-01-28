@@ -17,7 +17,7 @@
           <li>
             <a href="#"><img src="assets/google-share.png" id="social"></a>
             <a href="#"><img src="assets/linkedin-share.png" id="social2"></a>
-            <a href="#" id="social3"><img src="assets/comments-share.png" id="social4">324 Comments</a>
+            <a href="#" id="social3"><img src="assets/comments-share.png" id="social4"> 324 Comments</a>
           </li>
         </ul>
       </div>
@@ -34,17 +34,299 @@
   </div>
 
   <hr></hr>
+  <div id="article">
+    <div id="section">
+      Executive Summary
+    </div>
+    <br>
+    <div id="text">
+      The index published in Economic Freedom of the World
+      measures the degree to which the policies and institutions
+      of countries are supportive of economic freedom. The cornerstones
+      of economic freedom are personal choice, voluntary exchange,
+      freedom to enter markets and compete, and security of the person and
+      privately owned property. Forty-two data points are used to
+      construct a summary index and to measure the degree of economic
+      freedom in five broad areas:
+    </div>
+      <br><br>
+      <div id="list">
+        1) Size of Government: Expenditures, Taxes, and Enterprises;<br>
+        2) Legal Structure and Security of Property Rights;<br>
+        3) Access to Sound Money;<br>
+        4) Freedom to Trade Internationally;<br>
+        5) Regulation of Credit, Labor, and Business.<br>
+      </div>
+      <br><br>
+    <div id="text">
+      <i>Average chain-linked rating</i><br>
+      The average chain-linked economic freedom rating for the 101 countries
+      with ratings since 1980 has increased from 5.32 in 1980 to 5.78 in
+      1990 to 6.72 in 2000 and finally to 6.84 in 2012.
+    </div>
+      <br><br>
+    <div id="text">
+      <i>Top Rated Countries</i><br>
+      Hong Kong and Singapore, once again, occupy the top two positions.
+      The other nations in the top 10 are New Zealand, Switzerland, Mauritius,
+      United Arab Emirates, Canada, Australia, Jordan, and, tied for
+      10th, Chile and Finland.
+    </div>
+    <br><br>
+    <div id="step-4"></div>
+    <div id="step-5"></div>
+    <br><br>
+    <div id="text">
+      <i>Lowest Rated Countries</i><br>
+      The 10 lowest-rated countries are: Myanmar, Democratic Republic of Congo,
+      Burundi, Chad, Iran, Algeria, Argentina, Zimbabwe, Republic of Congo,
+      and, lastly, Venezuela.
+    </div>
+    <br><br>
+    <div id="step-6"></div>
+    <div id="step-7"></div>
+    <br><br>
+    <div id="section">
+      World Map
+    </div>
+    <br>
 
-  <br><br>
-
+  </div>
+    <p>
     <div id="map">
       <div id="control"></div>
       <div id="container"></div>
     </div>
 
-    <br><br>
+    <br><br><Br>
 
-    Lorem ipsum
+  <footer>
+    © Cato Institute, Katie Reed
+  </footer>
+
+    <script type="text/javascript">
+
+    var countries = ['Hong Kong', 'Singapore', 'New Zealand', 'Switzerland',
+    'Mauritus', 'United Arab Emirates', 'Canada', 'Australia', 'Jordan',
+    'Chile'],
+    scores = [8.98, 8.54, 8.25, 8.19, 8.05, 8.09, 8.00, 7.87, 7.86, 7.84],
+    chart,
+    width = 700,
+    bar_height = 40,
+    height = bar_height * countries.length;
+
+    chart = d3.select($("#step-1")[0])
+    .append('svg')
+    .attr('class', 'chart')
+    .attr('width', width)
+    .attr('height', height);
+
+    var x, y;
+
+    chart = d3.select($("#step-2")[0])
+    .append('svg')
+    .attr('class', 'chart')
+    .attr('width', width)
+    .attr('height', height);
+
+    x = d3.scale.linear()
+    .domain([0, d3.max(scores)])
+    .range([0, width]);
+
+    y = d3.scale.ordinal()
+    .domain(countries)    // you had scores here
+    .rangeBands([0, height]);
+
+    chart.selectAll("rect")
+    .data(scores)
+    .enter().append("rect")
+    .attr("x", 0)
+    .attr("y", function(d,i) { return y(countries[i]); })
+    .attr("width", x)
+    .attr("height", bar_height);
+
+    chart = d3.select($("#step-3")[0])
+    .append('svg')
+    .attr('class', 'chart')
+    .attr('width', width)
+    .attr('height', height);
+
+    chart.selectAll("rect")
+      .data(scores)
+      .enter().append("rect")
+      .attr("x", left_width)
+      .attr("y", function(d,i) { return y(countries[i]); })
+      .attr("width", x)
+      .attr("height", y.rangeBand());
+
+    chart.selectAll("text.score")
+        .data(scores)
+        .enter().append("text")
+        .attr("x", function(d) { return x(d) + left_width; })
+        .attr("y", function(d, i){ return y(countries[i]) + y.rangeBand()/2; } )
+
+    chart.selectAll("text")
+    .data(scores)
+    .enter().append("text")
+    .attr("x", function(d) { return x(d) + left_width; })
+    .attr("y", function(d, i){ return y(countries[i]) + y.rangeBand()/2; } )
+    .attr("dx", -5)
+    .attr("dy", ".36em")
+    .attr("text-anchor", "end")
+    .text(String);
+
+    var left_width = 150;
+
+    chart = d3.select($("#step-4")[0])
+    .append('svg')
+    .attr('class', 'chart')
+    .attr('width', left_width + width)
+    .attr('height', height);
+
+    chart.selectAll("rect")
+      .data(scores)
+      .enter().append("rect")
+      .attr("x", left_width)
+      .attr("y", function(d,i) { return y(countries[i]); })
+      .attr("width", x)
+      .attr("height", y.rangeBand());
+
+    chart.selectAll("text.score")
+    .data(scores)
+    .enter().append("text")
+    .attr("x", function(d) { return x(d) + left_width; })
+    .attr("y", function(d, i){ return y(countries[i]) + y.rangeBand()/2; } )
+    .attr("dx", -20)
+    .attr("dy", ".36em")
+    .attr("text-anchor", "end")
+    .attr('class', 'score')
+    .text(String);
+
+    chart.selectAll("text.name")
+    .data(countries)
+    .enter().append("text")
+    .attr("x", left_width / 2)
+    .attr("y", function(d, i){ return y(countries[i]) + y.rangeBand()/2; } )
+    .attr("dy", ".36em")
+    .attr("text-anchor", "middle")
+    .attr('class', 'name')
+    .text(String);
+
+    </script>
+
+    <script type="text/javascript">
+
+    var countries = ['Myanmar', 'Congo, Dem. R.', 'Burundi', 'Chad', 'Iran',
+    'Algeria', 'Zimbabwe', 'Argentina', 'Congo, Rep. Of', 'Venezuela'],
+    scores = [5.28, 5.24, 5.21, 5.12, 5.10, 5.09, 4.93, 4.92, 4.58, 3.89],
+    chart,
+    width = 400,
+    bar_height = 40,
+    height = bar_height * countries.length;
+
+    chart = d3.select($("#step-1")[0])
+    .append('svg')
+    .attr('class', 'chart')
+    .attr('width', width)
+    .attr('height', height);
+
+    var x, y;
+
+    chart = d3.select($("#step-2")[0])
+    .append('svg')
+    .attr('class', 'chart')
+    .attr('width', width)
+    .attr('height', height);
+
+    x = d3.scale.linear()
+    .domain([0, d3.max(scores)])
+    .range([0, width]);
+
+    y = d3.scale.ordinal()
+    .domain(countries)    // you had scores here
+    .rangeBands([0, height]);
+
+    chart.selectAll("rect")
+    .data(scores)
+    .enter().append("rect")
+    .attr("x", 0)
+    .attr("y", function(d,i) { return y(countries[i]); })
+    .attr("width", x)
+    .attr("height", bar_height);
+
+    chart = d3.select($("#step-3")[0])
+    .append('svg')
+    .attr('class', 'chart')
+    .attr('width', width)
+    .attr('height', height);
+
+    chart.selectAll("rect")
+      .data(scores)
+      .enter().append("rect")
+      .attr("x", left_width)
+      .attr("y", function(d,i) { return y(countries[i]); })
+      .attr("width", x)
+      .attr("height", y.rangeBand());
+
+    chart.selectAll("text.score")
+        .data(scores)
+        .enter().append("text")
+        .attr("x", function(d) { return x(d) + left_width; })
+        .attr("y", function(d, i){ return y(countries[i]) + y.rangeBand()/2; } )
+
+    chart.selectAll("text")
+    .data(scores)
+    .enter().append("text")
+    .attr("x", function(d) { return x(d) + left_width; })
+    .attr("y", function(d, i){ return y(countries[i]) + y.rangeBand()/2; } )
+    .attr("dx", -5)
+    .attr("dy", ".36em")
+    .attr("text-anchor", "end")
+    .text(String);
+
+    var left_width = 150;
+
+    chart = d3.select($("#step-6")[0])
+    .append('svg')
+    .attr('class', 'chart2')
+    .attr('width', left_width + width)
+    .attr('height', height);
+
+    chart.selectAll("rect")
+      .data(scores)
+      .enter().append("rect")
+      .attr("x", left_width)
+      .attr("y", function(d,i) { return y(countries[i]); })
+      .attr("width", x)
+      .attr("height", y.rangeBand());
+
+    chart.selectAll("text.score")
+    .data(scores)
+    .enter().append("text")
+    .attr("x", function(d) { return x(d) + left_width; })
+    .attr("y", function(d, i){ return y(countries[i]) + y.rangeBand()/2; } )
+    .attr("dx", -20)
+    .attr("dy", ".36em")
+    .attr("text-anchor", "end")
+    .attr('class', 'score')
+    .text(String);
+
+    chart.selectAll("text.name")
+    .data(countries)
+    .enter().append("text")
+    .attr("x", left_width / 2)
+    .attr("y", function(d, i){ return y(countries[i]) + y.rangeBand()/2; } )
+    .attr("dy", ".36em")
+    .attr("text-anchor", "middle")
+    .attr('class', 'name')
+    .text(String);
+
+    </script>
+
+
+
+
+
 
       <script type="text/javascript">
 

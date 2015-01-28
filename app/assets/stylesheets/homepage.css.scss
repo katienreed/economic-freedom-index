@@ -20,14 +20,13 @@
   font-size: 25px;
   text-decoration: none;
   font-family: Palatino;
-  color: #fff;
+  color: #000;
 }
 #nav  a:hover {
   font-size: 25px;
   text-decoration: underline;
   font-family: Palatino;
-  color: #fff;
-  background-color: #60728a;
+  color: #000;
   padding: 5px;
 }
 #social {
@@ -67,6 +66,7 @@ h1 {
   text-align: center;
   padding: 0px;
   font-weight: 400;
+  color: #000;
 }
 h2 {
   font-family: Helvetica;
@@ -74,6 +74,7 @@ h2 {
   font-size: 30px;
   text-align: center;
   margin-top: -40px;
+  color: #000;
 }
 h3 {
   font-family: Helvetica;
@@ -132,4 +133,87 @@ hr:after {
   background-image: -moz-radial-gradient(center top, farthest-side, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
   background-image: -o-radial-gradient(center top, farthest-side, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
   background-image: radial-gradient(farthest-side at center top, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
+}
+#section {
+  font-family: Palatino;
+  font-size: 30px;
+  color: #000;
+}
+#article {
+  width: 900px;
+  margin: 0 auto;
+}
+#center-graphic {
+  width: 1000px;
+  margin: 0 auto;
+}
+body   {
+  color: #000;
+  background: #fff;
+  font: normal 10px "Helvetica Neue", Helvetica, sans-serif;
+  margin: 2em;
+}
+#text {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #000;
+  text-align: justify;
+  font-weight: 350;
+}
+#list {
+  font-family: Palatino;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  font-weight: 300;
+}
+footer {
+  text-align: center;
+}
+
+
+
+
+
+// Styling for bar chart
+
+.chart {
+  background: #fff;
+  margin: 5px;
+}
+.chart rect {
+  stroke: white;
+  fill: steelblue;
+}
+.chart text {
+  fill: white;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+.chart text.name {
+  fill: #000;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+// styling for second bar chart
+
+.chart2 {
+  background: #fff;
+  margin: 5px;
+}
+.chart2 rect {
+  stroke: white;
+  fill: #7f0000;
+}
+.chart2 text {
+  fill: white;
+  font-family: Helvetica;
+  font-size: 14px;
+  padding: 5px;
+}
+.chart2 text.name {
+  fill: #000;
+  font-family: Helvetica;
+  font-size: 14px;
 }

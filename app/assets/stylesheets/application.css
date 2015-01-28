@@ -17,12 +17,6 @@
  /* Map D3 Styling
  */
 
- body   {
-   color: #666;
-   background: #f3f3f3;
-   font: normal 10px "Helvetica Neue", Helvetica, sans-serif;
-   margin: 2em;
- }
 
  #control {
    height: 50px;
@@ -48,7 +42,7 @@
 
  #map {
    width: 900px;
-   margin:12px 10%;
+   margin:0 auto;
  }
 
  #container {
@@ -78,3 +72,5 @@
    stroke: #111;
    stroke-width: .1;
  }
+
+/* Styling for bar chart */
