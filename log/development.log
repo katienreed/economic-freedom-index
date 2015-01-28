@@ -1,0 +1,1654 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 13:55:54 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1333ms (Views: 1312.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 13:55:55 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 124ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 13:55:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 13:55:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 13:55:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 13:55:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 13:55:55 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 13:55:55 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 13:55:55 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 13:55:55 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 13:55:55 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 13:55:56 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 13:55:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 13:55:56 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 13:55:56 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 13:55:56 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 13:55:56 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 13:55:56 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 13:55:56 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 13:55:56 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 13:55:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:02:43 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 226ms (Views: 225.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:02:44 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 112ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:02:57 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 169ms (Views: 167.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:02:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:03:54 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 111ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:03:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:03:57 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 107ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:03:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:06:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 295ms (Views: 273.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:06:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:06:31 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:06:34 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:07:06 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 152ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:07:07 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:07:15 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:08:42 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 153ms (Views: 152.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:08:43 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 205ms (Views: 203.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:10:25 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 149ms (Views: 147.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:11:25 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:11:26 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:11:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:11:26 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:11:26 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:11:26 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:11:26 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:11:26 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:13:17 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 117ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:14:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 158ms (Views: 157.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:15:44 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:17:12 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 157ms (Views: 156.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:17:12 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:17:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 144ms (Views: 143.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:18:19 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:18:20 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:18:20 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:18:20 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:18:20 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:19:28 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 110ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:19:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:20:15 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 163ms (Views: 161.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:22:51 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 215ms (Views: 213.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:23:21 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 268ms (Views: 250.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:30:06 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 95ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:30:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 240ms (Views: 222.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:33:17 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:33:18 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:33:18 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:33:18 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:33:18 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 202ms (Views: 200.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:34:49 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 172ms (Views: 171.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-01-28 14:35:16 -0500
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-01-28 14:35:16 -0500

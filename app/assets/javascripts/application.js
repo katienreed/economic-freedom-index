@@ -17,6 +17,9 @@
 //= require d3
 //= require topojson
 
+
+
+
 (function($) {
   $(document).ready(function(){
     $(window).scroll(function(){
