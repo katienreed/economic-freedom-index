@@ -32,6 +32,8 @@ gem 'd3-rails', '~> 3.5.2'
 # Use topojson for maps
 gem 'topojson-rails'
 
+gem 'rails_12factor' 
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
