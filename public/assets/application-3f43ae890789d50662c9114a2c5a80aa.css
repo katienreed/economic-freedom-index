@@ -1,0 +1,359 @@
+/* line 1, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#wrapper-header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 6, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  background-color: #6a917f;
+}
+
+/* line 12, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#nav li {
+  display: inline;
+  padding: 30px;
+  font-family: Palatino;
+  font-size: 20px;
+  position: relative;
+}
+
+/* line 19, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#nav a:link {
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: Palatino;
+  color: #fff;
+}
+
+/* line 25, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#nav a:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: Palatino;
+  color: #000;
+  padding: 5px;
+}
+
+/* line 32, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#nav a:visited {
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: Palatino;
+  color: #fff;
+}
+
+/* line 39, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#social {
+  position: fixed;
+  right: 8px;
+  top: -50px;
+  z-index: 9999;
+  display: none;
+  width: 150px;
+  height: 150px;
+}
+
+/* line 48, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#social2 {
+  position: fixed;
+  top: -50px;
+  right: 158px;
+  z-index: 9999;
+  display: none;
+  width: 150px;
+  height: 150px;
+}
+
+/* line 57, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#social3 {
+  position: fixed;
+  right: 8px;
+  top: 50px;
+  z-index: 9999;
+  display: none;
+  font-color: #000;
+  font-size: 20px;
+}
+
+/* line 66, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#social4 {
+  height: 30px;
+  width: 30px;
+}
+
+/* line 70, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+h1 {
+  font-family: Palatino;
+  font-size: 75px;
+  text-align: center;
+  padding: 0px;
+  font-weight: 400;
+  color: #000;
+}
+
+/* line 78, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+h2 {
+  font-family: Helvetica;
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -40px;
+  color: #000;
+}
+
+/* line 86, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+h3 {
+  font-family: Helvetica;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 25px;
+  color: grey;
+}
+
+/* line 94, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+h4 {
+  font-family: Helvetica;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+  margin-top: -20px;
+}
+
+/* line 102, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+header {
+  background-color: #000;
+  color: #fff;
+  font-family: Palatino;
+}
+
+/* line 107, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#wrapper-body {
+  width: 1350px;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+/* line 112, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#wrapper-title {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* line 116, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#linebreak {
+  text-align: center;
+  color: grey;
+  font-size: 10px;
+  margin-top: 0;
+}
+
+/* line 122, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+hr {
+  height: 1px;
+  margin: 50px 0;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0)), color-stop(0.5, #333333), to(rgba(0, 0, 0, 0)));
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+  background: linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+  border: 0;
+  margin-top: 0px;
+}
+
+/* line 133, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+hr:after {
+  display: block;
+  content: '';
+  height: 30px;
+  background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 116, color-stop(0%, #cccccc), color-stop(100%, rgba(255, 255, 255, 0)));
+  background-image: -webkit-radial-gradient(center top, farthest-side, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -moz-radial-gradient(center top, farthest-side, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-radial-gradient(center top, farthest-side, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: radial-gradient(farthest-side at center top, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* line 144, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#section {
+  font-family: Palatino;
+  font-size: 30px;
+  color: #000;
+}
+
+/* line 149, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#article {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* line 153, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#center-graphic {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 157, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+body {
+  color: #000;
+  background: #fff;
+  font: normal 10px "Helvetica Neue", Helvetica, sans-serif;
+  margin: 2em;
+}
+
+/* line 163, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#text {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #000;
+  text-align: justify;
+  font-weight: 350;
+}
+
+/* line 170, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+#list {
+  font-family: Palatino;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* line 177, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+footer {
+  text-align: center;
+}
+
+/* line 187, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+.chart {
+  background: #fff;
+  margin: 5px;
+}
+
+/* line 191, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+.chart rect {
+  stroke: white;
+  fill: steelblue;
+}
+
+/* line 195, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+.chart text {
+  fill: white;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+/* line 200, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+.chart text.name {
+  fill: #000;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+/* line 208, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+.chart2 {
+  background: #fff;
+  margin: 5px;
+}
+
+/* line 212, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+.chart2 rect {
+  stroke: white;
+  fill: #7f0000;
+}
+
+/* line 216, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+.chart2 text {
+  fill: white;
+  font-family: Helvetica;
+  font-size: 14px;
+  padding: 5px;
+}
+
+/* line 222, /Users/kiloromeo/Desktop/d3-map-rails/app/assets/stylesheets/homepage.css.scss */
+.chart2 text.name {
+  fill: #000;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+ /* Map D3 Styling
+ */
+
+
+ #control {
+   height: 50px;
+   #padding: 5px
+ }
+
+ #control select {
+   padding: 6px;
+ }
+
+ #control svg {
+   float: left;
+
+ }
+
+ text {
+   text-anchor: middle;
+ }
+
+ .legend text {
+   font-weight: bold;
+ }
+
+ #map {
+   width: 900px;
+   margin:0 auto;
+ }
+
+ #container {
+   border:2px solid #d0d0d0;
+   border-radius: 5px;
+   #height:100%;
+   width: 900px;
+ }
+
+ .hidden {
+   display: none;
+ }
+
+ div.tooltip {
+   color: #222;
+   background: #fff;
+   padding: .5em;
+   text-shadow: #f5f5f5 0 1px 0;
+   border-radius: 2px;
+   box-shadow: 0px 0px 2px 0px #a6a6a6;
+   opacity: 0.9;
+   position: absolute;
+   z-index: 100;
+ }
+
+ path {
+   stroke: #111;
+   stroke-width: .1;
+ }
+
+/* Styling for bar chart */
