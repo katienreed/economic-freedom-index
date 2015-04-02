@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Economic Maps, Yo</title>
+  </head>
+  <body>
+    <div class="map">
+      <p>Hello!</p>
+
+      <script type="text/javascript">
+
+      var maps = "";
+
+      // Define SVG size
+      var width = 950;
+      var height = 500;
+
+      var projection = d3.geo.mercator()
+      .scale(1000)
+      .translate([width / 2, height / 2]);
+
+      var path = d3.geo.path()
+      .projection(projection);
+
+      // Draw the map
+      d3.json("/map.json", function(error, map) {
+        if (error) return console.error(error);
+
+        console.log(map);
+
+        // Define SVG attributes
+        var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+        svg.append("g")
+        .selectAll(".country") // <- selector
+        .data(map.features)
+        .enter().append('path')
+        .attr("class", ".country") // <- giving all paths the same class
+        .attr('d', d3.geo.path().projection(d3.geo.mercator()));
+
+      });
+
+
+      </script>
+    </div>
+  </body>
+</html>
