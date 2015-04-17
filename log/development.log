@@ -11714,3 +11714,131 @@ Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-04-02 11:35:48 -0
 
 
 Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-04-02 11:35:48 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 17:35:33 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (6.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 230ms (Views: 216.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-04-17 17:35:34 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-17 18:00:39 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 116ms (Views: 106.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/scoreboard.css?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/scoreboard.js?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/d3.js?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/topojson.js?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/currencies-header.png" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/linkedin-share.png" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/google-share.png" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
+
+
+Started GET "/assets/comments-share.png" for 127.0.0.1 at 2015-04-17 18:00:40 -0400
